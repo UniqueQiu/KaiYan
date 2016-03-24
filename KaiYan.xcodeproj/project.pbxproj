@@ -11,7 +11,6 @@
 		131A75FA1CA3CC9F00790F95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A75F91CA3CC9F00790F95 /* ViewController.swift */; };
 		131A75FD1CA3CC9F00790F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131A75FB1CA3CC9F00790F95 /* Main.storyboard */; };
 		131A75FF1CA3CC9F00790F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131A75FE1CA3CC9F00790F95 /* Assets.xcassets */; };
-		131A76021CA3CC9F00790F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131A76001CA3CC9F00790F95 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		131A75F91CA3CC9F00790F95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		131A75FC1CA3CC9F00790F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		131A75FE1CA3CC9F00790F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		131A76011CA3CC9F00790F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		131A76031CA3CC9F00790F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 				131A75F91CA3CC9F00790F95 /* ViewController.swift */,
 				131A75FB1CA3CC9F00790F95 /* Main.storyboard */,
 				131A75FE1CA3CC9F00790F95 /* Assets.xcassets */,
-				131A76001CA3CC9F00790F95 /* LaunchScreen.storyboard */,
 				131A76031CA3CC9F00790F95 /* Info.plist */,
 			);
 			path = KaiYan;
@@ -122,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131A76021CA3CC9F00790F95 /* LaunchScreen.storyboard in Resources */,
 				131A75FF1CA3CC9F00790F95 /* Assets.xcassets in Resources */,
 				131A75FD1CA3CC9F00790F95 /* Main.storyboard in Resources */,
 			);
@@ -149,14 +145,6 @@
 				131A75FC1CA3CC9F00790F95 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		131A76001CA3CC9F00790F95 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				131A76011CA3CC9F00790F95 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -251,7 +239,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = KaiYan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uniqueQiu.com.KaiYan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,7 +252,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = KaiYan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uniqueQiu.com.KaiYan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
